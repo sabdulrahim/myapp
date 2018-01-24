@@ -3,3 +3,4 @@ yum update -y
 yum install figlet -y
 echo "rahims linux" > /myfile
 figlet -p < /myfile
+or put it in .bashrc file
