@@ -1,6 +1,9 @@
 #!/bin/bash/
 yum update -y
 yum install figlet -y
-echo "rahims linux" > /myfile
-figlet -p < /myfile
-or put it in .bashrc file
+echo "rahim's linux" > /myfigletFile.txt (or)
+figlet -p < /myfigletfile.txt
+vi /home/ec2-user/.bashrc file
+figlet -p < /myfigletfile.txt
+:wq
+
