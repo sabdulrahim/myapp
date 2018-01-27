@@ -8,7 +8,7 @@ figlet -p < /myfigletfile.txt
 :wq
 
 #!/bin/bash/
-yum update
+yum -y update
 yum -y install figlet
 echo "R A H I M" >/myfigletfile.txt
 echo "figlet -p < /myfigletfile.txt" >/root/.bashrc
